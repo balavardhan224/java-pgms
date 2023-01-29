@@ -19,15 +19,16 @@ class binarySearch {
     }
     public static void main(String[] args) {
         int array[]={1,2,3,4,5};
-        Scanner a= new Scanner(System.in);
-        System.out.println("srch element");
-        int b=a.nextInt();
-        int c=b(array,b,0,array.length-1);
-        if (c==-1){
-                System.out.println("not found");
-    }
-        else{
-            System.out.println(b);
+        try (Scanner a = new Scanner(System.in)) {
+            System.out.println("srch element");
+            int b=a.nextInt();
+            int c=b(array,b,0,array.length-1);
+            if (c==-1){
+                    System.out.println("not found");
+   }
+            else{
+                System.out.println(b);
+            }
         }       
     }
 }

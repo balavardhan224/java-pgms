@@ -10,17 +10,18 @@ class lS{
         return -1;
     }
     public static void main(String[] args) {
-        Scanner a=new Scanner(System.in);
-        int array[]={1,2,3,4,5};
-        System.out.println("search element");
-        int n=a.nextInt();
-        int p=search(array,n);
-        if (p==-1){
-            System.out.println("not found");
+        try (Scanner a = new Scanner(System.in)) {
+            int array[]={1,2,3,4,5};
+            System.out.println("search element");
+            int n=a.nextInt();
+            int p=search(array,n);
+            if (p==-1){
+                System.out.println("not found");
+            }
+            // else{
+            //     System.out.println("NOT FOUND");
+            // }
         }
-        // else{
-        //     System.out.println("NOT FOUND");
-        // }
        
 
     }

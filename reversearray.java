@@ -1,4 +1,4 @@
-import java.util.*;
+
 class reverse{
     public static void main(String[] args) {
         int a[]={9,8,7,6,8};
