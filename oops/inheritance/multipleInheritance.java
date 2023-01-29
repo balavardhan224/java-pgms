@@ -10,8 +10,8 @@ class B{
         System.out.println("Class B");
     }
 }
- class multipleInheritance extends A,B{
-    public static void main(String[] args) {
+//  class multipleInheritance extends A,B{
+//     public static void main(String[] args) {
         
-    }
- }
+//     }
+//  }

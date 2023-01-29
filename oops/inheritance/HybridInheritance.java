@@ -24,5 +24,5 @@ class D extends B{
 
 public class HybridInheritance {
     D item= new D();
-    item.dog();
+    // item.dog();
 }
