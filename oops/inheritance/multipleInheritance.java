@@ -1,4 +1,4 @@
-package oops;
+package oops.inheritance;
 
 class A{
     void ant(){
