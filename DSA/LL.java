@@ -8,21 +8,33 @@ public class LL{
 
     public LL(){
         this.size=0;
+        head=null;
+        tail=null;
     }
+    //5 null
 
     public void insertbegg(int val){
+
         Node node = new Node(val);
         node.value = val;
         node.next=head;
         head=node;
         size+=1;
+        if(tail==null){
+            tail=node;
+        }
     }
-
+    //null
     public void insertend(int val){
+
         Node node = new Node(val);
-        node.value=val;
-        tail.next = node;
-        tail = node;
+        if(tail!=null){
+            tail.next=node;
+        }
+        if(head==null){
+            head=node;
+        }
+        tail=node;
         size+=1;
     }
 
