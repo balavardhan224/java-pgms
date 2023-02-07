@@ -53,6 +53,9 @@ public class LL{
         temp.next=node;
         size++;
     }
+    public void delete(){
+        
+    }
 
     public void display(){
         //doubt
