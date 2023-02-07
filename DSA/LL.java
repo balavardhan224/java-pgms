@@ -11,6 +11,19 @@ public class LL{
         head=null;
         tail=null;
     }
+    private class Node{
+        private int value;
+        private Node next;
+
+        public Node(int value){
+            this.value=value;
+        }
+         
+        public Node(int value, Node next){
+            this.value=value;
+            this.next=next;
+        }
+    }
     //5 null
 
     public void insertbegg(int val){
@@ -41,9 +54,11 @@ public class LL{
     public void insert(int val, int index){
         if(index==0){
             insertbegg(val);
+            return;
         }
         else if(index==size){
             insertend(val);
+            return;
         }
         Node temp=head;
         for(int i=1;i<index;i++){
@@ -53,8 +68,35 @@ public class LL{
         temp.next=node;
         size++;
     }
-    public void delete(){
-        
+    public void deleteFirst(){
+        //doubt
+        int val=head.value;
+        head=head.next;
+        size--;
+        if(null==head){
+            tail=null;
+            
+        }
+    }
+    public Node get(int index){
+        Node tempp=head;
+        for (int i=0;i<index;i++){
+            tempp=tempp.next;
+        }
+        return tempp;
+
+    }
+    public void deleteLast(){
+        if (size<=1){
+            deleteFirst();
+            return;
+        }
+        else{
+            Node SecondLast=get(size-2);
+            SecondLast.next=null;
+            tail=SecondLast;
+            size--;
+        }
     }
 
     public void display(){
@@ -64,20 +106,9 @@ public class LL{
             System.out.print(current.value+" -> ");
             current=current.next;
         }
+        System.out.println("END");
     }
    
-    private class Node{
-        private int value;
-        private Node next;
-
-        public Node(int value){
-            this.value=value;
-        }
-         
-        public Node(int value, Node next){
-            this.value=value;
-            this.next=next;
-        }
-    }
+   
 
 }
