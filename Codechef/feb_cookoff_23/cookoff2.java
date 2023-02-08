@@ -1,4 +1,4 @@
-package Codechef;
+package Codechef.feb_cookoff_23;
 
 
 /* package codechef; // don't place package name! */
