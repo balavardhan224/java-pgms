@@ -1,3 +1,5 @@
+package leetcode;
+
 // package leetcode;
 
 class Solution1 {

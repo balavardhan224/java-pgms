@@ -1,3 +1,4 @@
+package leetcode;
 class largestCommonPrefix {
     public static void main(String[] args) {
         

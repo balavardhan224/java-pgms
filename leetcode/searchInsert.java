@@ -1,3 +1,5 @@
+
+package leetcode;
 class Solution2 {
     public int searchInsert(int[] nums, int target) {
         int low=0;
