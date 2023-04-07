@@ -15,7 +15,7 @@ class twosum1 {
         return res;
     }
 }
-//app2
+//approach 2
 class twosum2 {
     public int[] twoSum(int[] nums, int target) {
     Map <Integer,Integer> h=new HashMap<>();
