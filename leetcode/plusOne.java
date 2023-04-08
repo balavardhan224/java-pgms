@@ -1,6 +1,5 @@
 
 package leetcode;
-import DSA.main;
 
 public class plusOne {
     public static void main(String[] args) {

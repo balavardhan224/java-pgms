@@ -70,7 +70,7 @@ public class LL{
     }
     public void deleteFirst(){
         //doubt
-        int val=head.value;
+        // int val=head.value;
         head=head.next;
         size--;
         if(null==head){

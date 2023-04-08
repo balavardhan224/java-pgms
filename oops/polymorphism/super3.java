@@ -1,9 +1,11 @@
 package oops.polymorphism;
-class Ask{
-    void Ask(){
-        System.out.println("class a");
-    }
-}
+// class Ask{
+//     void Ask(){
+//         System.out.println("class a");
+//     }
+// }
+
+
 // class Bal extends Ask{
 //     void Bal(){
 //         super();
