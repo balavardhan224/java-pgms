@@ -1,4 +1,4 @@
-package oops.inheritance;
+package OOPS.inheritance;
 
 
 class extra{

@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package OOPS.polymorphism;
 class first{
     void ant(){
         System.out.println("First");

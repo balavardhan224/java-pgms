@@ -1,6 +1,6 @@
 
 package leetcode;
-class Solution2 {
+class Sol {
     public int searchInsert(int[] nums, int target) {
         int low=0;
         int high=nums.length-1;
