@@ -9,18 +9,19 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-	    Scanner aa= new Scanner(System.in);
-        int a=aa.nextInt();
-	    while(a>0){
-	        a-=1;
-	        int b=aa.nextInt();
-	        if(b>=80){
-	            System.out.println("YES");
-	        }
-	        else{
-	            System.out.println("NO");
-	        }
-	    }
+		try (// your code goes here
+		Scanner aa = new Scanner(System.in)) {
+			int a=aa.nextInt();
+			while(a>0){
+			    a-=1;
+			    int b=aa.nextInt();
+			    if(b>=80){
+			        System.out.println("YES");
+			    }
+			    else{
+			        System.out.println("NO");
+			    }
+			}
+		}
 	}
 }

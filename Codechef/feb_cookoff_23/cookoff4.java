@@ -10,18 +10,19 @@ class Codechef44
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        Scanner aa= new Scanner(System.in);
-        int a=aa.nextInt();
-	    while(a>0){
-	        a-=1;
-            int b=aa.nextInt();
-            for(int i=2;i<=b;i++)
-            {System.out.print(i+" ");}
-            System.out.println(1);
-            //System.out.println();
-            
+        try (Scanner aa = new Scanner(System.in)) {
+            int a=aa.nextInt();
+            while(a>0){
+                a-=1;
+                int b=aa.nextInt();
+                for(int i=2;i<=b;i++)
+                {System.out.print(i+" ");}
+                System.out.println(1);
+                //System.out.println();
+                
 
-		// your code goes here
+            // your code goes here
+            }
         }
 		
 	}

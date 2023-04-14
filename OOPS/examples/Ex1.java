@@ -1,6 +1,5 @@
 package OOPS.examples;
 
-import DSA.main;
 
 class Account{
     String name;
