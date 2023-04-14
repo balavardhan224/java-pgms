@@ -1,3 +1,4 @@
+package OOPS.inheritance;
 // package oops.inheritance;
 // class A{
 //     void ant(){

@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package OOPS.polymorphism;
 class An{  
         String color="white";  
         } 
