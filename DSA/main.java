@@ -19,7 +19,5 @@ public class main {
         list.display();
         list.deleteLast();
         list.display();
-
-
     }
 }
