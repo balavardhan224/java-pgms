@@ -1,16 +1,16 @@
 package OOPS.inheritance;
 // package oops.inheritance;
-class A{
+class Aq{
     void ant(){
         System.out.println("Class A");
     }
 }
-class B extends A{
+class B extends Aq{
     void ball(){
         System.out.println("Class B");
     }
 }
-class C extends A{
+class C extends Aq{
     void cat(){
         System.out.println("Class C");
     }
