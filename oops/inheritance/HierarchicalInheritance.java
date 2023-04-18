@@ -5,7 +5,7 @@ class Aq{
         System.out.println("Class A");
     }
 }
-class B extends Aq{
+class Bq extends Aq{
     void ball(){
         System.out.println("Class B");
     }
