@@ -11,9 +11,8 @@ class Solution1 {
             r=temp%10;
             sum=sum*10+r;
             temp=temp/10;
-          
           System.out.println(sum);
-           }
+        }
            System.out.println(sum);
            if(sum==121){
                System.out.println("true");
