@@ -109,6 +109,7 @@ public static int countNodes(Node root){
 
     return leftNode+righNode+1;
 }
+//sumofnodes
 public static int sumNodes(Node root){
     if(root==null){
         return 0;
@@ -117,6 +118,18 @@ public static int sumNodes(Node root){
     int righNode=sumNodes(root.right);
 
     return leftNode+righNode+root.data;
+
+}
+//height
+public static int height(Node root){
+    if(root==null){
+        return 0;
+    }
+    int leftNode=height(root.left);
+    int righNode=height(root.right);
+
+    return Math.max(leftNode, righNode) +1;
+
 
 }
     public static void main(String args[]) {
@@ -144,7 +157,9 @@ public static int sumNodes(Node root){
        System.out.println();
        System.out.print("sum of Nodes: ");
        System.out.print(sumNodes(root));
+       System.out.println();
+       System.out.print("height of Nodes: ");
+       System.out.print(height(root));
        //System.out.println(root.data);
    }
-
 }
