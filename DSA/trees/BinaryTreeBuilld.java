@@ -2,7 +2,7 @@ package DSA.trees;
 
 import java.util.*;
 
-public class BinaryTreeBuilld{
+private class BinaryTreeBuilld{
     static class Node{
         int data;
         Node left;
